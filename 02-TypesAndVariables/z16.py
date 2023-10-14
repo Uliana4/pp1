@@ -1,0 +1,8 @@
+print("Result a: ",15+38)
+print("Result b: ", (3+4)+(5+9))
+print("Result c: ", 7//2)
+print("Result d: ", 48%5)
+print("Result e: ",(8+7+4+2)/4)
+print("Result f: ", 2**10)
+print("Result g: ",int(49**0.5))
+print("Result h: ", int(80*0.25))
