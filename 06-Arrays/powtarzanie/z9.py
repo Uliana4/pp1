@@ -17,6 +17,11 @@ for i in range(len(arr)):
     s += arr[i]
 print(s/len(arr))
 
+# h
+middle_index = len(arr) // 2
+middle_value = arr[middle_index]
+print(f"h. Middle value: {middle_value}")
+
 i=0
 while i<len(arr):
     print(arr[i], end = " ")
