@@ -5,8 +5,8 @@ with open("data.json") as file:
 
 # for key,value in data.items():
 #     print(f"{key} : {value}")
+
 i=0
 while i<len(data):
-    # print(countries[i]["name"], countries[i]["population"])
     print(f'{data[i]} ')
     i+=1

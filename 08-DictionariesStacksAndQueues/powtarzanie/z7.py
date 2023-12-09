@@ -11,9 +11,9 @@ person = {
 for x, y in person.items():
   print(x, y)
 # b
-print(person["name"])
+person["name"]
 # c
-print(person["hobby"])
+person["hobby"]
 # d
 person["surname"]="Nowak"
 # e
@@ -26,3 +26,6 @@ person["hobby"]=person["hobby"]+['bicycle']
 # h
 # person.update({"phone": "313131444"})
 person["phone"]["work"]="313131444"
+
+for x, y in person.items():
+  print(x, y)

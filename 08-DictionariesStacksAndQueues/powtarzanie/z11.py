@@ -8,4 +8,4 @@ movie = {
     "music":"Doremilala"
 }
 with open("json.json", "w") as file:
-    # json.dump(movie, )
+    json.dump(movie, file)
